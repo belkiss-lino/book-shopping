@@ -18,6 +18,10 @@ export const CartContainer = styled.div`
   p {
     color: #222222;
   }
+
+  svg {
+    color: #222222;
+  }
 `;
 
 export const CartEscapeArea = styled.div`
@@ -28,7 +32,7 @@ export const CartContent = styled.div`
   height: 100%;
   min-width: 500px;
   z-index: 200;
-  background-color: white;
+  background-color: #E6E6FA;
   padding: 20px;
   overflow-y: scroll;
 
@@ -42,7 +46,8 @@ export const CartTitle = styled.p`
   margin-bottom: 15px;
 `;
 export const CartTotal = styled.p`
+  text-align: end;
   font-weight: 600;
-  font-size: 1.125rem;
+  font-size: 1.300rem;
   margin-bottom: 15px;
 `;

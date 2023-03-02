@@ -1,60 +1,117 @@
 const products = [
   {
     id: "6228fe63b7e6cb904bbe0165",
-    price: 35.9,
+    price: 35.90,
     name: "É Assim que Acaba",
     imageUrl:
       "https://boanova.fbitsstatic.net/img/p/e-assim-que-acaba-83809/250672.jpg?w=420&h=420&v=no-change&qs=ignore",
   },
   {
     id: "6228fec7b7e6cb904bbe016f",
-    name: "Regata Azul",
-    price: 150,
+    name: "É Assim que Começa",
+    price: 49.90,
     imageUrl:
-      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80s",
+      "https://cf.shopee.com.br/file/sg-11134201-22100-eexaz5o0s5ivea",
   },
   {
-    price: 200,
+    name: "O Duque e Eu",
+    price: 21.90,
     id: "6228ff71b7e6cb904bbe0175",
     imageUrl:
-      "https://images.unsplash.com/photo-1584670747417-594a9412fba5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-    name: "Suéter Vermelho Vibrante",
+      "https://i.zst.com.br/thumbs/12/1c/32/52497822.jpg",
   },
   {
-    name: "Vestido Vermelho",
-    price: 250,
+    name: "A Hipótese do Amor",
+    price: 28.80,
     imageUrl:
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=746&q=80",
+      "https://http2.mlstatic.com/D_NQ_NP_683696-MLU50709784176_072022-O.jpg",
     id: "6228ff93b7e6cb904bbe0177",
   },
   {
-    price: 300,
+    name: "De Sangue e Cinzas",
+    price: 45.20,
     id: "6228fe80b7e6cb904bbe0168",
-    name: "Jaqueta Xadrez",
     imageUrl:
-      "https://images.unsplash.com/photo-1525450824786-227cbef70703?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "https://boanova.fbitsstatic.net/img/p/de-sangue-e-cinzas-volume-1-serie-sangue-e-cinzas-84485/251348.jpg?w=420&h=420&v=no-change&qs=ignore",
   },
   {
-    price: 200,
-    name: "Blusa Branca",
+    name: "Corte de Gelo e Estrelas",
+    price: 30.95,
     id: "6228ff31b7e6cb904bbe0172",
     imageUrl:
-      "https://images.unsplash.com/photo-1624206112918-f140f087f9b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "https://http2.mlstatic.com/D_NQ_NP_790905-MLB31362621656_072019-O.jpg",
   },
   {
-    price: 200,
+    name: "Corte de Espinhos e Rosas",
+    price: 65.30,
     imageUrl:
-      "https://images.unsplash.com/photo-1582418702059-97ebafb35d09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80",
+      "https://a-static.mlcdn.com.br/1500x1500/livro-corte-de-espinhos-e-rosas-vol-1-sarah-j-maas-com-brinde/magazineluiza/233306000/c94144fb5f918d61e8e308af5fdba6c7.jpg",
     id: "62290014b7e6cb904bbe017c",
-    name: "Calça Jeans Azul",
   },
   {
+    name: "O Morro dos Ventos Uivantes",
     id: "6228ffa5b7e6cb904bbe017a",
-    name: "Vestido Branco",
-    price: 250,
+    price: 38.50,
     imageUrl:
-      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz-R8qN3NkBbK_ecbEZbtForGK87Bccwatdw&usqp=CAU",
   },
+  {
+    name: "O Duque e Eu",
+    price: 21.90,
+    id: "6228ff71b7e6cb904bbed75",
+    imageUrl:
+      "https://i.zst.com.br/thumbs/12/1c/32/52497822.jpg",
+  },
+  {
+    name: "A Hipótese do Amor",
+    price: 28.80,
+    imageUrl:
+      "https://http2.mlstatic.com/D_NQ_NP_683696-MLU50709784176_072022-O.jpg",
+    id: "6228ff93b7e6cb90454bbe0177",
+  },
+  {
+    name: "De Sangue e Cinzas",
+    price: 45.20,
+    id: "6228fe80b7e6cb90sd787168",
+    imageUrl:
+      "https://boanova.fbitsstatic.net/img/p/de-sangue-e-cinzas-volume-1-serie-sangue-e-cinzas-84485/251348.jpg?w=420&h=420&v=no-change&qs=ignore",
+  },
+  {
+    name: "Corte de Gelo e Estrelas",
+    price: 30.95,
+    id: "6228ff31b7e6cb90454ds72",
+    imageUrl:
+      "https://http2.mlstatic.com/D_NQ_NP_790905-MLB31362621656_072019-O.jpg",
+  },
+  {
+    name: "Corte de Espinhos e Rosas",
+    price: 65.30,
+    imageUrl:
+      "https://a-static.mlcdn.com.br/1500x1500/livro-corte-de-espinhos-e-rosas-vol-1-sarah-j-maas-com-brinde/magazineluiza/233306000/c94144fb5f918d61e8e308af5fdba6c7.jpg",
+    id: "62290014b7e6cb904bbe017c",
+  },
+  {
+    name: "O Duque e Eu",
+    price: 21.90,
+    id: "6228ff71b7e6c787e0175",
+    imageUrl:
+      "https://i.zst.com.br/thumbs/12/1c/32/52497822.jpg",
+  },
+  {
+    name: "A Hipótese do Amor",
+    price: 28.80,
+    imageUrl:
+      "https://http2.mlstatic.com/D_NQ_NP_683696-MLU50709784176_072022-O.jpg",
+    id: "6228ff93b7e6cb904787177",
+  },
+  {
+    name: "De Sangue e Cinzas",
+    price: 45.20,
+    id: "6228fe80b7e6cb904b7854168",
+    imageUrl:
+      "https://boanova.fbitsstatic.net/img/p/de-sangue-e-cinzas-volume-1-serie-sangue-e-cinzas-84485/251348.jpg?w=420&h=420&v=no-change&qs=ignore",
+  },
+  
 ];
 
 export default products;
